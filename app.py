@@ -131,7 +131,7 @@ import matplotlib.pyplot as plt
 # -------------------------------------------------------------------
 
 
-df = pd.read_csv(r"D:\streamlit_test\heart_failure.csv") # 데이터 불러오기
+df = pd.read_csv("heart_failure.csv") # 데이터 불러오기
 
 st.sidebar.header(" 필터") # 왼쪽 사이드 바에 필터라는 제목 생성
 age = st.sidebar.slider("최대 나이",40, 95, 70) # 사이드 바에 슬라이드 설정
