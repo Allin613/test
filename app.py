@@ -16,7 +16,7 @@ import streamlit as st
 
 import pandas as pd
 
-# df = pd.read_csv(r"D:\streamlit_test\heart_failure.csv")
+# df = pd.read_csv("heart_failure.csv")
 
 # st.subheader(" 환자 데이터")
 # st.dataframe(df.head())
